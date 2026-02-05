@@ -1,0 +1,55 @@
+body {
+  background: #0f172a;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.form {
+  background: #020617;
+  padding: 25px;
+  border-radius: 8px;
+  width: 320px;
+  color: white;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 4px;
+  border: none;
+}
+
+.phone {
+  display: flex;
+  gap: 6px;
+}
+
+.phone select {
+  width: 40%;
+}
+
+.radio,
+.checkbox {
+  margin: 8px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #facc15;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.error {
+  color: #f87171;
+  font-size: 12px;
+}
